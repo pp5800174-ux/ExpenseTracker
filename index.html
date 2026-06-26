@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Expense Tracker</title>
+        <link rel="stylesheet"href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Expense Tracker</h1>
+            <form onsubmit="login(event)">
+                <input type="email" placeholder="enter email" required>
+                <input type="password" placeholder="enter password" required>
+                <button type="submit">login</button>
+            </form>
+        </div>
+        <script>
+            function login(event){
+                event.preventDefault();
+                alert("login successful!");
+            }
+        
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
